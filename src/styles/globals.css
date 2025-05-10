@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.navbar{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar-text{
+    font-weight: bolder;
+    font-size: 10vw;
+}
+
+.navbar-text-active{
+    font-weight: bolder;
+    font-size: 10vw;
+    text-decoration: underline;
+}
+
+.project-div{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.project-card{
+    width: 60vw;
+    justify-content: center;
+}
+.card-title{
+    justify-content: left;
+    text-align: start;
+    font-size: large;
+    font-weight: bolder;
+}
+.card-date{
+    justify-content: left;
+    text-align: start;
+    font-size: small;
+    font-weight: lighter;
+}
+.card-desc{
+    justify-content: left;
+    text-align: start;
+    font-size: medium;
+}
+
+img.icon-img{
+    width: 128px;
+    height: 128px;
+}
